@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-position: center;
+}
+.title1 {
+  color: peru;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container {
+  /*padding-left: 400px;*/
+  /*padding-top: 150px;*/
+  background-color: beige;
+  margin: 50px 300px;
+  padding: 10px 20px;
+  padding: 75px 75px 75px 75px;
+  align-content: center;
+}
+.container input {
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+}

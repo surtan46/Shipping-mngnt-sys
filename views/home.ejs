@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shipping</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <%- include("partials/header.ejs") %>
+    <main style="min-height: 70vh">
+      <% if(locals.user){ %>
+      <h2>Welcome <%= user.client_name%></h2>
+      <% }else{ %>
+      <h2>Welcome to shipping_co</h2>
+      <%}%>
+    </main>
+
+    <%- include("partials/footer.ejs") %>
+  </body>
+</html>

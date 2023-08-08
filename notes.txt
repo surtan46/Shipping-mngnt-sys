@@ -1,0 +1,10 @@
+shipping company
+users
+--clients
+--sys admin
+--delivery/pickup stations
+
+Database
+-clients-- client_id,client_name,email,password,phone,address
+-packages - package_id,client_id,description,weight,fragility_level,image,pickup_address,delivery_address
+- Tracking --tracking_number, package_id,pickup_date,expected_delivery_date,current_package_location,status

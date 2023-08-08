@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  color: white;
+  padding: 20px;
+}
+header nav a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  padding-left: 20px;
+}
+header nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: blueviolet;
+}
